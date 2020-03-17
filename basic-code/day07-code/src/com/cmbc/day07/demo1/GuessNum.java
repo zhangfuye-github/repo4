@@ -1,8 +1,7 @@
-package com.cmbc.day4.demo1;
+package com.cmbc.day07.demo1;
 
 import java.util.Random;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
 public class GuessNum {
     public static void main(String[] args) {

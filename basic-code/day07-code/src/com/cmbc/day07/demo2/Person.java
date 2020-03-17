@@ -1,4 +1,4 @@
-package com.cmbc.day4.demo2;
+package com.cmbc.day07.demo2;
 /*
 这是java的一个实体类
  */
