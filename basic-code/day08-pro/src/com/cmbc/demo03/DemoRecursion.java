@@ -4,7 +4,7 @@ import java.io.File;
 
 public class DemoRecursion {
     public static void main(String[] args) {
-        File file = new File("E:\\邮箱证书配置文档");
+        File file = new File("E:\\mianshi");
 //        boolean b = file.isFile();
 //        System.out.println(b);
          printFileName(file);
@@ -18,8 +18,8 @@ public class DemoRecursion {
                 printFileName(file1);
             }else{
                 String name = file1.getName();
-                boolean b = name.endsWith(".docx");
-                if(name.endsWith(".docx")){
+                boolean b = name.endsWith(".java");
+                if(b){
                     System.out.println(file1.getAbsolutePath());
                 }
 

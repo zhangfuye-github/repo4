@@ -5,11 +5,11 @@ import java.io.FileFilter;
 
 public class DemoRecursionFilter {
     public static void main(String[] args) {
-        File file = new File("E:\\邮箱证书配置文档");
+        File file = new File("E:\\mianshi");
          printFileName(file);
     }
     private static void printFileName(File file) {
-        File[] files = file.listFiles( pathname->pathname.isDirectory() ||pathname.getName().endsWith(".docx"));
+        File[] files = file.listFiles( pathname->pathname.isDirectory() ||pathname.getName().endsWith(".java"));
             for (File file1 : files) {
             if(file1.isDirectory()){
                 printFileName(file1);
