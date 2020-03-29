@@ -13,9 +13,9 @@ public class DemoRecursionFilter {
             for (File file1 : files) {
             if(file1.isDirectory()){
                 printFileName(file1);
-            } else{
-                    System.out.println(file1.getAbsolutePath());
-                }
+            } else {
+                System.out.println(file1.getAbsolutePath());
+            }
         }
 /*        for (File file1 : files) {
             if(file1.isDirectory()){
