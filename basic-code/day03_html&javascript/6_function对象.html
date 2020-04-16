@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>function</title>
+</head>
+<body>
+<script >
+
+
+    /*
+    var d=function( a, b){
+        alert(123);
+    };
+    var d=function( a, b){
+        alert(456);
+    };
+    var newVar = new function (){};
+    document.write(d.length+"<br>");
+    document.write(newVar);
+    var message="Hello World!";
+    var x=message.length;
+    message.blink();
+    document.write(x)*/
+/*    var person=new Object();
+    person.firstname="John";
+    person.lastname="Doe";
+    person.age=50;
+    person.eyecolor="blue";
+
+    document.write(person.firstname + " is " + person.age + " years old.");*/
+    document.write(document.documentElement.clientHeight+""+window.innerHeight+" "+window.innerWidth);
+    // window.open();
+//    创建function对象
+//     var fun=new Function('a','b','v',"alert(a)");
+//     fun(1,2,3);
+//     function f(a,b) {
+//         alert(456)
+//     };
+//     f(1);
+    var fu=function () {
+        // alert(a+b);
+        alert(arguments[0]);
+    };
+
+
+    fu();
+</script>
+
+</body>
+</html>

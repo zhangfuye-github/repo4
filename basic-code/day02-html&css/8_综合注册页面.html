@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>综合注册页面</title>
+    <style>
+       /*@import url(css/registerstyle.css);*/
+
+    </style>
+    <link rel="stylesheet" href="css/registerstyle.css">
+</head>
+<body>
+    <div id="rg_layout">
+        <div id="rg_left">
+            <p>新用户注册</p>
+            <span>USER REGISTER</span>
+        </div>
+        <div id="rg_center">
+            <form action="#" method="get" >
+                <table  align="center"  cellspacing="15px" cellpadding="0px">
+                    <tr>
+                        <td  class="td_left"><label for="username">用户名</label></td>
+                        <td ><input type="text" name="username" id="username" placeholder="请输入用户名" ></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="password">密码</label></td>
+                        <td><input type="password" name="password" id="password" placeholder="请输入密码"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="email">邮箱</label></td>
+                        <td><input type="email" name="email" id="email" placeholder="请输入邮箱"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="name">姓名</label></td>
+                        <td><input type="text" name="name" id="name" placeholder="请输入姓名"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label for="tel">手机号</label></td>
+                        <td><input type="tel" name="tel" id="tel" placeholder="请输入手机号"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_left"><label >性别</label></td>
+                        <td>
+                            <input type="radio" name="gender" value="male" id="gender"><label for="gender">男</label>
+                            <input type="radio" name="gender" value="female" id="2"><label for="2">女</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            <label for="birthday">出生日期</label>
+                        </td>
+                        <td>
+                            <input type="date" name="birthday" id="birthday">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="td_left">
+                            <label for="checkcode">验证码</label>
+                        </td>
+                        <td>
+                            <input type="text" name="checkcode" id="checkcode">
+                            <img src="img/verify_code.jpg" alt="" id="checkcodeimg">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="注册" id="btn_sub">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div id="rg_right">
+            <p>已有用户?<a href="#">点击登录</a></p>
+        </div>
+    </div>
+</body>
+</html>

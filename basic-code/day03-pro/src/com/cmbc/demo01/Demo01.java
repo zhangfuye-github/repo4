@@ -19,7 +19,6 @@ public class Demo01 {
         Iterator<String> iterator = hs.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next());
-
         }
     }
 }
