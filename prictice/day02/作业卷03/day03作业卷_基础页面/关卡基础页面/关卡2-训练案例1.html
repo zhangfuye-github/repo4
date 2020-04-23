@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+	 <head>
+	 	<meta charset="UTF-8">
+	 <style>
+		 table{
+			 border: 1px solid blue;
+			 margin: auto;
+			 width: 500px;
+			 cellspacing: 0px;
+		 }
+		 td,th{
+			 text-align: center;
+			 border: 1px solid blue;
+		 }
+	 </style>
+	 </head>
+    <body>
+   	 	行：<input id="row" type="text" />
+    	列：<input id="col" type="text" />
+    	<input type="button" value="生成表格" id="btn"/>
+    	<div id="divId"></div>
+		<script !src="">
+			var btn = document.getElementById("btn");
+			btn.onclick=function () {
+				var row=document.getElementById("row").value;
+				var col=document.getElementById("col").value;
+				var htmlTableElement1 = document.createElement("table");
+				// htmlTableElement1.style.padding="0px";
+				var elementById1 = document.getElementById("divId");
+				var tableElement = elementById1.appendChild(htmlTableElement1);
+				for (let i = 0; i < row; i++) {
+					var htmlTableRowElement = tableElement.appendChild(document.createElement("tr"));
+					// htmlTableElement1.border="solid red";
+					for (let j = 0; j < col; j++) {
+						var htmlTableColElement=htmlTableRowElement.appendChild(document.createElement("td"));
+						htmlTableColElement.innerHTML="传智播客";
+						// htmlTableColElement.style.border="solid blue 2px"
+						// htmlTableColElement.style.padding="0px"
+					}
+				}
+			}
+		</script>
+    </body>
+</html>

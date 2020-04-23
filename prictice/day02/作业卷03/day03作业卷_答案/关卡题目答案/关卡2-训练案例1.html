@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+	 <head>
+	 	<meta charset="UTF-8">
+	 	<script>
+		    function createTable(){
+			    var rows = document.getElementById("row").value; //获取行
+			    var columns = document.getElementById("col").value; //获取列
+			    var tab = "<table border='1' bordercolor='blue' cellspacing='0'>";
+			 
+			    for(var i = 0; i < rows; i++){ //遍历生成行
+			    	tab+="<tr>";
+			    	for(var j = 0; j < columns; j++){//遍历生成列
+				   		tab+="<td>传智播客</td>";
+				    }
+			    	tab+="</tr>";
+			    }
+			    tab+="</table>";
+			    var divNode = document.getElementById("divId"); //获取div节点
+			    divNode.innerHTML = tab; //将tab设置为div节点的文本内容
+		     
+		    }
+    	</script>
+	 </head>
+    <body>
+   	 	行：<input id="row" type="text" />
+    	列：<input id="col" type="text" />
+    	<input type="button" value="生成表格" onclick="createTable()"/>
+    	<div id="divId"></div>
+    </body>
+</html>

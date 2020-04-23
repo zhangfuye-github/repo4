@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+
+	</head>
+	<body>
+		<input type="text" name="input1" id="input1">
+		<br>
+		<input type="text" name="input2" id="input2">
+		<br>
+		<input type="text" name="input3" id="input3">
+		<br>
+		<button onclick="f(parseInt(document.getElementById('input1').value),
+		parseInt(document.getElementById('input2').value),
+		parseInt(document.getElementById('input3').value))" style="margin-top:30px;height: 30px;width: 80px;border: red solid">求最大值</button>
+		<script >
+			var flag=0;
+			function f() {
+				for (let argument of arguments) {
+					if (argument>flag) {
+						flag=argument;
+					}
+				}
+				alert("最大值是:"+flag);
+			}
+			alert(typeof parseInt(document.getElementById('input2').value));
+		</script>
+	</body>
+</html>

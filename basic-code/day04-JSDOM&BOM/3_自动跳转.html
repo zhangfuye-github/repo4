@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自动跳转</title>
+    <style>
+        p{
+            text-align : center;
+        }
+        #time{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <span id="time" >5</span>
+        <b>s后跳转至百度页面...</b>
+        <input type="button" value="前进" id="forward">
+    </p>
+    <!--学习使用location对象和history对象-->
+    <script >
+        var time = document.getElementById("time");
+        setInterval(fun,1000);
+        var seconds=5;
+        function fun() {
+            time.innerHTML=seconds--;
+            if(seconds<=0){
+                location.href="2_轮播图.html";
+            }
+        }
+        alert(history.length);
+        var btn=document.getElementById("forward");
+
+        btn.onclick=function(){
+            history.forward();
+        };
+
+    </script>
+</body>
+</html>

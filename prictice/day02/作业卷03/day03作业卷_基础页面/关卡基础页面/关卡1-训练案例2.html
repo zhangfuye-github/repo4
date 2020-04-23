@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		
+	</head>
+	<body>
+		<script >
+			function fun() {
+				alert("这本书名为《"
+						+document.getElementById("bookname").value+"》,"
+						+document.getElementById("bookauthor").value +"著作的书,"
+						+"折扣为:" +document.getElementById("booksale").value+"折，折扣后价格为:"
+						+document.getElementById("bookprice").value*document.getElementById("booksale").value
+				);
+			}
+		</script>
+		<form name="myform">
+			书名：<input type="text" name="bookname"  id="bookname" value=""><br/>
+			作者：<input type="text" name="bookauthor" id="bookauthor"><br/>
+			价格：<input type="text" name="bookprice" id="bookprice"><br/>
+			折扣：<input type="text" name="booksale" id="booksale"><br/>
+			<input type="button"  onclick="fun()" value="计算折扣价">
+		</form>
+
+	</body>
+</html>

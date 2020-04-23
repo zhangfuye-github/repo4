@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+
+	</head>
+	<body>
+		<script>
+			// window.confirm("请输入您的邮箱：","");
+			var prompt = window.prompt("请输入您的邮箱",);
+			var s = prompt.valueOf();
+			var regExpq=/^([0-9a-zA-Z_-])+@([0-9a-zA-Z_-])+(\.[0-9a-zA-Z]+)$/;
+			var b = regExpq.test(s);
+			if(b){
+				alert("恭喜，你输入的E-mail合法！");
+			}else{
+				alert("对不起，你输入的E-mail有误！");
+			}
+			//1690445989@qq.com
+			//123
+			//456
+		</script>
+	</body>
+</html>

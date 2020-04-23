@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+	<head>
+		<script>
+			var email = prompt("请输入E-mail地址：","");
+  			if(email!=null && email.length>0){
+    			checkEmail(email);
+  			}
+  			function checkEmail(email){
+    			var re = /^([0-9a-zA-Z_-])+@([0-9a-zA-Z_-])+(\.[0-9a-zA-Z]+)$/;
+				if(re.test(email)){
+	  				alert("恭喜，你输入的E-mail合法！");
+				}else{
+	  				alert("对不起，你输入的E-mail有误！");
+				}
+  		}
+		</script>
+	</head>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播图</title>
+</head>
+<body>
+
+    <img src="img/banner_1.jpg" alt="图一" width="100%" height="100%" id="img">
+    <br>
+    <input type="button" value="后退" id="back">
+    <script>
+        setInterval(fun,3000)
+        var number=1;
+        function fun() {
+            number++;
+            if(number>3){
+                number=1;
+            }
+            var elementById = document.getElementById("img");
+            elementById.src="img/banner_"+number+".jpg";
+        }
+
+        var btn1=document.getElementById("back");
+        btn1.onclick=function(){
+            history.back();
+        };
+    </script>
+</body>
+</html>
