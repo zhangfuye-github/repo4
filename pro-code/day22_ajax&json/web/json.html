@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json</title>
+    <script>
+        /**
+         * json的数据格式：
+         *      1.{key:value,key:value,key:value}
+         *      2.[{key:value,key:value,key:value},{key:value,key:value,key:value}，{key:value,key:value,key:value}]
+         *      3.{key:[{key:value,key:value,key:value},{key:value,key:value,key:value}，{key:value,key:value,key:value}]}
+         */
+        var jsons={"name":"zhangsan","age":23,"gender":true};
+        // alert(jsons.name);
+
+        var jsonss=[
+            {"name":"zhangsan","age":23,"gender":true},
+            {"name":"lsii","age":23,"gender":true},
+            {"name":"wangwu","age":23,"gender":true}
+        ];
+        // alert(jsonss[1]["name"]);
+        // for( var key in jsons){
+        //     alert(key+':'+jsons[key]);
+        // }
+        for (var i = 0; i <jsonss.length ; i++) {
+            for(var keys in jsonss[i]){
+                alert(keys+':'+jsonss[i][keys]);
+            }
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>
