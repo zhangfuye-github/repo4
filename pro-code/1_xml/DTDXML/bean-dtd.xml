@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--<!DOCTYPE beans SYSTEM "bean.dtd">-->
+<!DOCTYPE beans [<!ELEMENT beans (bean*,import*) >
+        <!ELEMENT bean (property*)>
+        <!ELEMENT property (#PCDATA)>
+        <!ELEMENT import (#PCDATA)>
+        <!ATTLIST bean id CDATA #REQUIRED
+                className CDATA #REQUIRED
+                >
+        <!ATTLIST property name CDATA #REQUIRED
+                value CDATA #REQUIRED
+                >
+        <!ATTLIST import resource CDATA #REQUIRED>
+        ]>
+<beans>
+    <bean id="" className="">
+        <property name="" value=""></property>
+    </bean>
+    <import resource="">
+<!--文档声明有两种方式-->
+<!--
+    1.内部声明
+    2.外部声明
+        2.1本机约束文档
+        2.2网络约束文档
+-->
+<!--        XML：是给软件用的(半成品软件：框架)，由程序员根据框架提供的约束文档进行编写。-->
+<!--    hibernate底层解析xml用的是dom4j-->
+
+    </import>
+</beans>

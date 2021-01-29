@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js" ></script>
+    <script>
+        $(function () {
+            $("#username").blur(function () {
+                var username=$(this).val();
+                $.get("registServlet",{"username":username},function(datas){
+                    if(datas.exsits){
+                        $("#uname").text(datas.msg);
+                        $("#uname").css("color","red");
+                    }else{
+                        $("#uname").text(datas.msg);
+                        $("#uname").css("color","green");
+                    }
+                },"json");
+            });
+        });
+    </script>
+</head>
+<body>
+    <input id="username" type="text" name="username" placeholder="请输入用户名" ><spam id="uname"></spam><br/>
+    <input type="password" name="password" placeholder="请输入密码"><br/>
+    <input type="submit" value="注册"><br/>
+</body>
+</html>

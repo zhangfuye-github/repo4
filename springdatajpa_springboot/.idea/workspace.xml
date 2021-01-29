@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60dc1e07-87b1-4120-9a6c-815e7a49c5b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/filter/SensitiveFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/AddUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/CheckCodeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/DelSelecteIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/DelSelecteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/DeleteUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/FindUserByPageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/FindUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/TestServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/web/servlet/UpdateUserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/web/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/web/list_test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day17_case/web/update.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/proxy/Lenovo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/proxy/ProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/proxy/SaleComputer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/web/filter/FilterDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/web/filter/FilterDemo14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/web/filter/FilterDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/web/filter/FilterDemo3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/src/cn/itcast/web/servlet/UpdateServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day18_filter&amp;listener/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/dom操作/01-html&amp;text&amp;val.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/dom操作/02-prop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/dom操作/03-class&amp;css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/dom操作/04-create&amp;append.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/dom操作/05-remove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/01.隔行换色/01.隔行换色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/02.全选和全不选/全选和全不选.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/QQ表情选择.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/03.QQ表情选择/img/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/案例/04.多选下拉列表左右移动/左右移动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/001-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/01-基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/02-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/03-层级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/04-过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day20_jquery/选择器/05-表单过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/01-jquery动画/01-显示隐藏动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/02-jquery遍历/01-遍历.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/03-jquery事件绑定与解绑/01-绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/03-jquery事件绑定与解绑/02-on绑定事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/03-jquery事件绑定与解绑/03-事件切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/04-jQuery综合案例/广告的自动显示与隐藏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/04-jQuery综合案例/抽奖.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/05-jQuery的插件/01-jQuery对象进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/05-jQuery的插件/02-jQuery全局进行方法扩展.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/adv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/img/man06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day21_jquery高级/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/src/com/itheima/domain/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/src/com/itheima/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/src/com/itheima/test/JsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/src/com/itheima/web/servlet/AjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/src/com/itheima/web/servlet/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/JQuery_GET.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/JQuery_POST.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/JQuery_ajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/js/jquery-migrate-1.0.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/jsajax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/json.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day22_ajax&amp;json/web/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/dao/ProvinceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/dao/impl/ProvinceDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/domain/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/test/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/util/JedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/com/itheima/web/servlet/ProvincesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/druid.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/src/jedis.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/commons-pool2-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/druid-1.0.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/javax.servlet.jsp.jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/jedis-2.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/jstl-impl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/mysql-connector-java-5.1.18-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/spring-beans-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/spring-core-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/spring-jdbc-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/WEB-INF/lib/spring-tx-4.2.4.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/js/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/day23_redis/web/provinces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/out/artifacts/jackson-annotations-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/out/artifacts/jackson-core-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pro-code/out/artifacts/jackson-databind-2.2.3.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/src/cn/itcast/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pro-code/day17_case/web/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../pro-code/day17_case/web/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\develop\maven\repository" />
+        <option name="mavenHome" value="D:/develop/maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\develop\maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kms8mVfGwPwzIYbCAKvVUuYZh4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="JUnit.JpaTest">
+    <configuration name="JpaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdatajpa_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.cmbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.cmbc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.cmbc.test.JpaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JpaTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springdatajpa_springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.com.cmbc.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.com.cmbc.test" />
+      <option name="MAIN_CLASS_NAME" value="cn.com.cmbc.test.JpaTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringdatajpaSpringbootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springdatajpa_springboot" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.com.cmbc.SpringdatajpaSpringbootApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JpaTest" />
+        <item itemvalue="JUnit.JpaTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60dc1e07-87b1-4120-9a6c-815e7a49c5b9" name="Default Changelist" comment="" />
+      <created>1606316945061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606316945061</updated>
+      <workItem from="1606316948482" duration="4173000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="484" y="47" key="#com.intellij.ide.util.MemberChooser" timestamp="1606319060194">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="484" y="47" key="#com.intellij.ide.util.MemberChooser/0.0.1360.728@0.0.1360.728" timestamp="1606319060194" />
+    <state width="1315" height="544" key="GridCell.Tab.0.bottom" timestamp="1606321302648">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1315" height="544" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1606321302648" />
+    <state width="1315" height="544" key="GridCell.Tab.0.center" timestamp="1606321302648">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1315" height="544" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1606321302648" />
+    <state width="1315" height="544" key="GridCell.Tab.0.left" timestamp="1606321302648">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1315" height="544" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1606321302648" />
+    <state width="1315" height="544" key="GridCell.Tab.0.right" timestamp="1606321302648">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state width="1315" height="544" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1606321302648" />
+    <state x="209" y="18" key="Maven.ArtifactSearchDialog" timestamp="1606319495694">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="209" y="18" key="Maven.ArtifactSearchDialog/0.0.1360.728@0.0.1360.728" timestamp="1606319495694" />
+  </component>
+</project>

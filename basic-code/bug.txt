@@ -1,0 +1,7 @@
+null
+java.lang.reflect.InvocationTargetException
+------------------------------------
+/ by zero
+java.lang.reflect.InvocationTargetException
+------------------------------------
+总共出现2次异常

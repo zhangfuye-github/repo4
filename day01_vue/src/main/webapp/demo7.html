@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>v-text与v-html</title>
+		<script src="js/vuejs-2.5.16.js"></script>
+	</head>
+	<body>
+		<div id="app">
+<!--			<div id="div1"><font size="18" color="red">张夫业</font></div>-->
+<!--			<div id="div2"><font size="20" color="green">浪潮</font></div>-->
+			<div id="div1"><font  :size="size" v-text="message" :color="r"></font></div>
+			<div id="div2"><font :size="size" v-html="message" :color="g"></font></div>
+
+		</div>
+	</body>
+	<script>
+		new Vue({
+			el:"#app",
+			data:{
+				message:"<h1>张...三</h1>",
+				r:"yellow",
+				g:"green",
+				size:"1"
+			},
+			methods:{
+
+			}
+		});
+		//view model
+		// document.getElementById("div1").innerText="<h1>张...三</h1>";
+		// document.getElementById("div2").innerHTML="<h1>张...三</h1>";
+	</script>
+</html>

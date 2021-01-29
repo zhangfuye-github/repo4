@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="/param/parambean" method="post">
+    <span>用户名:</span><input name="username" type="text"><br />
+    <span>账户:</span><input name="account" type="text"><br />
+    <span>金额:</span><input name="money" type="text"><br />
+    <span>用户名:</span><input name="list[0].uname" type="text"><br />
+    <span>用户名:</span><input name="list[0].password" type="text"><br />
+    <span>用户名:</span><input name="map['one'].uname" type="text"><br />
+    <span>用户名:</span><input name="map['one'].password" type="text"><br />
+    <input type="submit" value="登录">
+</form>
+</body>
+</html>

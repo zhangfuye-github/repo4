@@ -1,0 +1,13 @@
+# 新型的配置文件格式，以数据为中心，重点在配置上，不是在语法上。。。。
+# 基本数据类型
+name: zhangsan
+# 对象数据类型
+person:
+  name: lisi
+  addr: 北京
+
+product: {name: 张夫业, addr: 上海 }
+phone:
+  name: xiaomi
+  price: 3999
+  time: 1996/06/22

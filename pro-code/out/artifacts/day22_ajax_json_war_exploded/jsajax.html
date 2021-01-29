@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js的ajax</title>
+    <script>
+        function fun() {
+            //1.创建对象
+            var xmlhttp;
+            if (window.XMLHttpRequest)
+            {
+                //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+                xmlhttp=new XMLHttpRequest();
+            }
+            else
+            {
+                // IE6, IE5 浏览器执行代码
+                xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            //2.绑定处理器
+            xmlhttp.open("POST","ajaxServlet",true);
+            //3.发送请求
+            xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+            xmlhttp.send("fname=Henry");
+            //4.接受并处理来自服务器的响应结果
+            //获取方式 ：xmlhttp.responseText
+            //什么时候获取？当服务器响应成功后再获取
+            xmlhttp.onreadystatechange=function()
+            {
+                //判断readyState就绪状态是否为4，判断status响应状态码是否为200
+                if (xmlhttp.readyState==4 && xmlhttp.status==200)
+                {
+                    //获取服务器的响应结果
+                    var responseText = xmlhttp.responseText;
+                    alert(responseText);
+                }
+            }
+
+
+
+        }
+    </script>
+</head>
+<body>
+    <input type="button" onclick="fun()" value="点击我进行访问">
+    <input type="text">
+</body>
+</html>

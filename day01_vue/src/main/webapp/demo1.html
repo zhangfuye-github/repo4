@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>快速入门</title>
+<!--    下载方式，复制下来，命名一个文件-->
+    <script src="js/Vuejs-v2.6.js"></script>
+
+<!--    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>-->
+</head>
+<body>
+    <div id="app">
+<!--        vue的插值表达式-->
+        {{message}}
+<!--        插值表达式支持三元运算符和数学运算-->
+        <br>
+        {{number+1000}}
+        <br>
+        {{false?"ok":"no"}}
+    </div>
+    <script>
+        // 首先创建vue对象，表示接管了哪一部分区域
+        new Vue({
+            el:"#app",
+            data:{
+                message:"hello vue!!!! test",
+                number:100
+            }
+        });
+    </script>
+</body>
+</html>

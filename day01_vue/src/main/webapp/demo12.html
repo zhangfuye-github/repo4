@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>v-for遍历对象</title>
+		<script src="js/vuejs-2.5.16.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<table border="1">
+				<tr>
+					<td>序号号</td>
+					<td>编号</td>
+					<td>名称</td>
+					<td>价格</td>
+				</tr>
+				<tr v-for="(item,index) in product">
+					<td>{{index}}</td>
+					<td>{{item.id}}</td>
+					<td>{{item.name}}</td>
+					<td>{{item.price}}</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+	<script>
+		//view model
+		new Vue({
+			el:"#app",
+			data:{
+				product:[
+						{id:1, name:"zhangsan", price:"6000"},
+						{id:2, name:"zhangsan", price:"5000"},
+						{id:3, name:"zhangsan", price:"4000"},
+						{id:4, name:"zhangsan", price:"2000"},
+						{id:5, name:"zhangsan", price:"3000"},
+						]
+
+			}
+		});
+	</script>
+
+</html>

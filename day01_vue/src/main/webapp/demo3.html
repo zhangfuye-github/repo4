@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>v-on:keydown</title>
+		<script src="js/vuejs-2.5.16.js"></script>
+	</head>
+
+	<body>
+		<div id="app">
+			<input type="text" v-on:keydown="fun1($event)" >
+			<hr>
+			<input type="text" onkeydown="fun()"  >
+		</div>
+	</body>
+	<script>
+		new Vue({
+			el:"#app",
+			methods:{
+				fun1:function (event) {
+					var keyCode =event.keyCode;
+					alert(keyCode);
+					if(keyCode<96 || keyCode > 105){
+						event.preventDefault();
+					}
+				}
+			}
+		});
+		//view model
+		function fun() {
+			var keyCode =event.keyCode;
+			alert(keyCode);
+			if(keyCode<96 || keyCode>105){
+				event.preventDefault();
+			}
+		}
+	</script>
+	
+	
+
+</html>

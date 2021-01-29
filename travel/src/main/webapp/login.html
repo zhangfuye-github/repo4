@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>黑马旅游网-登录</title>  
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <!--导入angularJS文件-->
+    <script src="js/angular.min.js"></script>
+	<!--导入jquery-->
+	<script src="js/jquery-3.3.1.js"></script>
+	<script>
+		<!--用于判断验证码不为空-->
+		function checkCheck(){
+			//获取邮箱输入框输入的值
+			var checkval =$("#check").val();
+			//根据输入值是否为空进行判断能否提交
+			if(checkval!=null && checkval!=""){
+				//如果验证结果为真，则无提示
+				$("#check").css("border","");
+				return true;
+			}else{
+				//如果验证结果为假，则输入框颜色变成红色
+				$("#check").css("border","1px solid red");
+				return false;
+			}
+		}
+
+		<!--用于验证用户名格式-->
+		function checkusername(){
+			//获取用户名输入框输入的值
+			var usernameval =$("#username").val();
+			//编写正则表达式，用于表单验证输入的格式要求
+			var reg_username=/^\w{8,20}$/;
+			var flag = reg_username.test(usernameval);
+			//根据正则表达式的结果进行判断能否提交
+			if(flag){
+				//如果验证结果为真，则无提示
+				$("#username").css("border","");
+			}else{
+				//如果验证结果为假，则输入框颜色变成红色
+				$("#username").css("border","1px solid red");
+			}
+			return flag;
+		}
+		<!--用于验证密码格式-->
+		function checkPassword(){
+			//获取密码输入框输入的值
+			var passwordval =$("#password").val();
+			//编写正则表达式，用于表单验证输入的格式要求
+			var reg_password=/^\w{8,20}$/;
+			var flag = reg_password.test(passwordval);
+			//根据正则表达式的结果进行判断能否提交
+			if(flag){
+				//如果验证结果为真，则无提示
+				$("#password").css("border","");
+			}else{
+				//如果验证结果为假，则输入框颜色变成红色
+				$("#password").css("border","1px solid red");
+			}
+			return flag;
+		}
+		$(function () {
+			$("#login_btn").click(function () {
+				if(checkusername()&&checkPassword()&&checkCheck()){
+					$.post("user/login",$("#loginForm").serialize(),function (data) {
+						if(data.flag){
+							location.href="index.html";
+						}else{
+							$("#errorMsg").html(data.errorMsg);
+						}
+					});
+				}
+				return false;
+
+			});
+		});
+
+	</script>
+</head>
+
+<body>
+<!--引入头部-->
+<div id="header"></div>
+    <!-- 头部 end -->
+    <section id="login_wrap">
+        <div class="fullscreen-bg" style="background: url(images/login_bg.png);height: 532px;">
+        	
+        </div>
+        <div class="login-box">
+        	<div class="title">
+        		<img src="images/login_logo.png" alt="">
+        		<span>欢迎登录黑马旅游账户</span>
+        	</div>
+        	<div class="login_inner">
+				
+				<!--登录错误提示消息-->
+        		<div id="errorMsg" class="alert alert-danger" ></div>
+				<form id="loginForm" action="" method="post" accept-charset="utf-8">
+        			<input type="hidden" name="action" value="login"/>
+					<input id="username" name="username" type="text" placeholder="请输入账号" autocomplete="off">
+        			<input  id="password" name="password" type="text" placeholder="请输入密码" autocomplete="off">
+        			<div class="verify">
+					<input id="check" name="check" type="text" placeholder="请输入验证码" autocomplete="off">
+					<span><img src="checkCode" alt="" onclick="changeCheckCode(this)"></span>
+					<script type="text/javascript">
+						//图片点击事件
+						function changeCheckCode(img) {
+							img.src="checkCode?"+new Date().getTime();
+						}
+					</script>
+			</div>
+			<div class="submit_btn">
+        				<button type="button" id="login_btn">登录</button>
+        				<div class="auto_login">
+        					<input type="checkbox" name="" class="checkbox">
+        					<span>自动登录</span>
+        				</div>        				
+        			</div>        			       		
+        		</form>
+        		<div class="reg">没有账户？<a href="javascript:;">立即注册</a></div>
+        	</div>
+        </div>
+    </section>
+    <!--引入尾部-->
+    <div id="footer"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--导入布局js，共享header和footer-->
+    <script type="text/javascript" src="js/include.js"></script>
+</body>
+
+</html>

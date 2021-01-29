@@ -1,0 +1,14 @@
+server:
+  port: 9001 #指定微服务端口号
+spring:
+  application:
+    name: tensquare-base #指定应用服务名，springcloud要求找微服务的时候，服务名称用横岗，不是下划线，idea不想看到横岗，springcloud不想看到下划线。
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver  #此处也可以使用首字母大写：driverClassName
+    url: jdbc:mysql://192.168.43.128:3306/tensquare_base?characterEncoding=utf-8
+    username: root
+    password: 123456
+  jpa:
+    database: mysql
+    show-sql: true
+    #generate-ddl: true

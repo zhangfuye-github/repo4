@@ -1,0 +1,77 @@
+package cn.com.cmbc.domain;
+
+import java.io.Serializable;
+
+/**
+ * @Auther: 张夫业
+ * @Date: 2020/11/25
+ * @Description:
+ */
+public class User implements Serializable {
+    private Integer id;
+    private Integer age;
+    private String username;
+    private String password;
+    private String email;
+    private String sex;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getSex() {
+        return sex;
+    }
+
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+   //方法重写，方法覆盖
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", age=" + age +
+                ", username='" + username + '\'' +
+                ", PASSWORD='" + password + '\'' +
+                ", email='" + email + '\'' +
+                ", sex='" + sex + '\'' +
+                '}';
+    }
+}
